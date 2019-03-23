@@ -14,6 +14,11 @@ This fork adds analysis capabilities, enabling the computation of network comple
 - :new: [Visualization of ZynqNet CNN](http://dgschwend.github.io/netscope/#/preset/zynqnet)
 - [Visualization of the Deep Convolutional Neural Network "SqueezeNet"](http://dgschwend.github.io/netscope/#/preset/squeezenet)
 
+### Run with docker
+```shell
+docker run -p 8080:80 --name netscope -d yuhaow/netscope
+```
+
 ### License
 
 Released under the MIT license.
